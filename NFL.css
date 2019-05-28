@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button, input[type="text"] {
+    padding: 5px;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+  
+.n-website {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    padding: 20px;
+}
