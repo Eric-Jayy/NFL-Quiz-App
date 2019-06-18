@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif; 
+  font-size: 30px;
+  color: #F1F3F5;
+  background: url('footballfield.jpg');
+  background-position: center;
+  background-size: contain;
+}
+
+.topper {
+  font-weight: bold;
+  width: 800px;
+  font-size: 60px; 
+  color: #050709;
+  padding: 5px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.logo {
+  position: relative;
+  bottom: -15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+form {
+  box-sizing: initial;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 500px;
+  height: auto;
+}
+
+.question {
+  font-size: 25px;
+  color: #050709;
+  background-color: #bfbfbf;
+  box-sizing: initial;
+  text-align: center;
+}
+
+.options {
+  display: block;
+}
+
+.answer {
+  color: black;
+  border: 3px solid #b5b5b7;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 5px;
+  background-color: #F1F3F5;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  width: 60%;
+  max-width: 75%;
+}
+
+#correctAnswer {
+  padding: 5px;
+  margin: 5px;
+  display: none;
+}
+
+#incorrectAnswer {  
+  padding: 5px;
+  margin: 5px;
+  display: none;
+}
+
+.continue {
+  padding: 5px;
+  margin: 5px;
+  display: none;
+  height: 20%;
+}
+
+.score {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  text-align: center;
+  height: auto;
+  text-align: center;
+  box-sizing: initial;
+}
+
+.runningstatus {
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  box-sizing: initial;
+  margin: 0 auto 0 auto;
+}
+
+.start-button {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  bottom: -20px;
+  color: #DD2F31;
+  border: 2px solid #214073;
+  border-radius: 5px;
+  background-color: #F1F3F5;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: #bfbfbf;
+}
+
+.result {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 300px) {
+.topper {
+  width: 50%;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 20px;
+}}
+
+@media screen and (min-width: 600px) {
+.topper {
+  width: 80%;
+  font-size: 40px;
+  margin: 0 auto;
+}}
+        
+@media screen and (min-width: 900px) {
+.topper {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto;
+}}
